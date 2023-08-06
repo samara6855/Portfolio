@@ -294,14 +294,14 @@ h1,h2,h3,h4,h5
         overflow: hidden;
         position: relative;
         margin-bottom: 30px;
-        display: flex;   /* NEW */
-    align-items: center;   /* NEW */
-    justify-content: center;   /* NEW */
+        display: flex;  
+        align-items: center;   
+        justify-content: center;    
     }
 #portfolio .portfolio-thumb h4 {
         position: relative;
-        z-index: 10;   /* NEW: Ensure text is above any other positioned content */
-        color: #fff;   /* NEW: Make the text white (or any color you prefer) */
+        z-index: 10;
+        color: #fff; 
     }
 #portfolio .portfolio-thumb .portfolio-overlay
     {
