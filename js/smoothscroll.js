@@ -145,12 +145,6 @@ if (!window["jQuery"])
   return p;
 });
 
-/**
- * Copyright (c) 2007 Ariel Flesler - aflesler<a>gmail<d>com | https://github.com/flesler
- * Licensed under MIT
- * @author Ariel Flesler
- * @version 2.0.0
- */
 !(function(e) {
   "function" == typeof define && define.amd ? define(["jquery"], e) : e(jQuery);
 })(function(e) {
